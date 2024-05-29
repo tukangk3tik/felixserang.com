@@ -1,0 +1,170 @@
+{
+
+    "Header.Item1" : "About me",
+    "Header.Item2" : "Experience",
+    "Header.Item3" : "Projects",
+    "Header.Item4" : "Contact",
+    "Header.cvBtn" : "Resume",
+    "Header.cvName": "CV_Yan_Felix_Serang_en.pdf",
+
+    "Banner.Pretitle": "Hello! My name is",
+    "Banner.Description": "I have <span class='underline'>5 years of experience</span> developing systems, interfaces, and technological solutions to make the web a better place. I'm a passionate software engineer driven by a relentless pursuit of innovation and excellence. I specialize in <span class='underline'>designing</span> and <span class='underline'>developing</span> cutting-edge software solutions that <span class='underline'>solve real-world problems</span> and delight users.",
+    "Banner.ActionBtn": "Get in touch",
+
+    "AboutMe.Title": "About me",
+    "AboutMe.Paragraphs": [
+        "In my <span class='underline'>5 years as a developer</span>, I seek to train every day. As a software engineer, now I focus on <span class='underline'>backend development</span>, <span class='underline'>performing continuous integration</span>, and covering mobile developer roles with <span class='underline'>android kotlin</span>.",
+        "I thrive in collaborative environments where diverse perspectives converge to create something truly exceptional.",
+        "Some of the technologies that I have trained and worked on include (but are not limited to):"
+    ],
+
+
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [{
+            "Tab": "Mitra Bhakti Informasi",
+            "Title": "Backend Developer",
+            "Date": "Mar 2023 - Present",
+            "Description": [
+              "Design and develop a dynamic scheduler service, and SFTP services for sending and reading SFTP files with algorithms to read columns dynamically according to payload configuration.",
+              "Lead sprint for develop Campaign Broadcast system, design the schema, and design the API specification and payload for message brokers for integration between service.",
+              "Develop and enhancement existing data migration script to load from file to db by using file cache mechanism to reduce db read executing time.",
+              "Reduce data  migration script load executing time from 4 hour to 20 minutes.",
+              "Maintaining scheduler and sftp service."
+            ]
+        },
+        {
+            "Tab": "Global Investa Capital",
+            "Title": "Backend Developer",
+            "Date": "Nov 2021 - Feb 2023",
+            "Description": [
+              "Design and build GICVerse service, using Golang micro service with shared database for NFT market place api product for blockchain NFT and integration with MD Blockchain GIC Team, implement design pattern, and adjusting auth with monolith app.",
+              "Query optimization for summaries viewer that previously used UNION on 3 tables to use CASE and JOIN with specific condition.",
+              "Create app event tracker, 3rd party Digital Marketing integration, cronjob database backup, and fixing bugs.",
+              "Develop API for mobile and web client GIC App, with implement repository and service pattern for great maintenance.",
+              "Create CI/CD pipeline for develop several features using Bitbucket pipeline and implementation daily backups.",
+              "Managing task for backend team, create task documentation, and evaluating/review pull request of task and merge.",
+              "Design database for feature GIC Reward.",
+              "Develop feature for GIC backoffice internal app."
+            ]
+        },
+        {
+            "Tab": "Disdukcapil Medan",
+            "Title": "Android Developer",
+            "Date": "Oct 2021 - Dec 2021",
+            "Description": [
+              "Design and build an android mobile application based on the existing SIBISA web application for public online service for civil documents like KTP, KK, etc.",
+              "Design and build an android mobile application called E-Lampid to make it easier for village officials to report born, death, and relocation.",
+              "Deploy SIBISA and E-Lampid apps to playstore."
+            ]
+        },
+        {
+            "Tab": "Sultan Abadi Sejahtera",
+            "Title": "Fullstack Developer",
+            "Date": "Jul 2020 - Sep 2021",
+            "Description": [
+              "Design and build android apps called QCApps for PT. Socfin Indonesia for reduce paper usage and build REST API for QCApps.",
+              "Optimize data integration with a large number of rows between the QCApps android application and Integrated Lab System for PT. Socfin Indonesia.",
+              "Revamp Lab Integrated System for PT. Socfin Indonesia and add enhancement feature. Merging 2 portal apps to be 1 portal.",
+              "Build Hospital Information and Management System for RSUD Petala Bumi Pekanbaru."
+            ]
+        },
+        {
+            "Tab": "RSUD Bintan",
+            "Title": "Fullstack Developer",
+            "Date": "Jan 2020 - Mar 2020",
+            "Description": [
+              "Create web application called Aplikasi Sehat for online reserve and integrated with offline RSUD Bintan Hospital Information and Management System.",
+              "Collecting requirement for enhancement of Hospital Information and Management System."
+            ]
+        }
+    ],
+
+    "FeatureProjects.Title": "My work",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [
+        {
+          "Title": "Backend Service of Telkomsel Points",
+          "Description": "<span class='underline'>Being part of team members</span> who build Telkomsel Points API Service and its integration. <span class='underline'>Telkomsel Points</span> is a loyalty program aimed at all Telkomsel Halo and Telkomsel PraBayar customers since they first used Telkomsel.",
+          "imgs": [
+            "assets/images/tsel/tsel1.png",
+            "assets/images/tsel/tsel2.png"
+          ],
+          "Technologies": ["NestJS", "Redis", "MongoDB","Apache Kafka"]
+        },
+        {
+          "Title": "Backend Service of GIC Trade",
+          "Description": "GIC or Global Investa Capital is the first revolutionary <span class='underline'>peer to peer forex trading</span> platform company in Indonesia that provides facilities for you to trade.",
+          "imgs": [
+            "assets/images/gic/gic1.png",
+            "assets/images/gic/gic2.png",
+            "assets/images/gic/gic3.png",
+            "assets/images/gic/gic4.png"
+          ],
+          "Technologies": ["Golang", "Laravel", "MySQL", "NodeJS"]
+        },
+        {
+            "Title": "SSPL Integrated System",
+            "Description": "PT. Socfin Indonesia <span class='underline'>integrated system</span> to record seed production processes, DNA research on plants, disease research on oil palm plants, and research on palm oil and rubber tissue culture  .",
+            "imgs": [
+                "assets/images/sspl/sspl1.png",
+                "assets/images/sspl/sspl2.png",
+                "assets/images/sspl/sspl3.png",
+                "assets/images/sspl/sspl4.png",
+                "assets/images/sspl/sspl5.png"
+            ],
+            "Technologies": ["PHP", "Laravel", "jQuery", "Ms. SQL Server"]
+        },
+        {
+            "Title": "QC Apps",
+            "Description": "PT. Socfin Indonesia android apps for reduce paper usage and as a replacement for portable data transfer devices",
+            "imgs": [
+                "assets/images/qcapps/qcapps1.png",
+                "assets/images/qcapps/qcapps2.png"
+            ],
+            "Technologies": ["Android Kotlin", "MVVM", "Kotlin Koin", "Room", "Retrofit"]
+        }
+    ],
+
+
+
+    "OtherProjects.Title": "More projects",
+    "OtherProjects.Projects": [
+        {
+            "Title": "Kickstarter Blockchain App",
+            "Description": "Personal project of implementation kickstarter.com business model to blockchain ecosystem and deploy to Sepolia Testnet Network",
+            "ghLink": "https://github.com/tukangk3tik/kickstarter-blockchain-app",
+            "Technologies": ["Blockchain", "Ethereum", "Solidity", "React", "NextJs", "NodeJs"]
+        },
+        {
+            "Title": "Discussion Forum API",
+            "Description": "A simple discussion API backend. User can login, create threads, leave a comment, and reply the comment",
+            "ghLink": "https://github.com/tukangk3tik/discussion-forum-api/tree/main",
+            "Technologies": ["NodeJs", "hapiJs", "Clean architecture", "Automate testing", "CI/CD", "Github action"]
+        },
+        {
+            "Title": "Simple Wallet App",
+            "Description": "Backend service for Simple Wallet App. Simple app for PrivyID Backend Test submission.",
+            "ghLink": "https://github.com/tukangk3tik/privyid-backend-test",
+            "Technologies": ["Golang", "Gin", "Gorm", "JWT"]
+        },
+        {
+          "Title": "Population Data Center",
+          "Description": "Personal Project of Population Data Center using Minimal Spring Boot sample app.",
+          "ghLink": "https://github.com/tukangk3tik/population-data-center",
+          "Technologies": ["Spring Boot", "Kotlin", "JWT", "Flyway"]
+        },
+        {
+          "Title": "Simple MEAN Stack",
+          "Description": "Personal project from completing learning fullstack development with MEAN stack",
+          "ghLink": "https://github.com/tukangk3tik/MEAN-stack",
+          "demoLink": "https://github.com/tukangk3tik/MEAN-stack",
+          "Technologies": ["MongoDB", "Express", "Angular", "NodeJS"]
+        }
+    ],
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+    "Contact.Btn": "Say Hello"
+
+
+}

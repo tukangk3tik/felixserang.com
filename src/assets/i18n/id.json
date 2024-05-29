@@ -1,0 +1,197 @@
+{
+
+  "Header.Item1" : "Tentang saya",
+  "Header.Item2" : "Pengalaman",
+  "Header.Item3" : "Proyek",
+  "Header.Item4" : "Kontak",
+  "Header.cvBtn" : "Resume",
+  "Header.cvName": "CV_Yan_Felix_Serang_id.pdf",
+
+  "Banner.Pretitle": "Halo! Saya",
+  "Banner.Description": "I have <span class='underline'>5 years of experience</span> developing systems, interfaces, and technological solutions to make the web a better place. I'm a passionate software engineer driven by a relentless pursuit of innovation and excellence. I specialize in <span class='underline'>designing</span> and <span class='underline'>developing</span> cutting-edge software solutions that <span class='underline'>solve real-world problems</span> and delight users.",
+  "Banner.ActionBtn": "Get in touch",
+
+  "AboutMe.Title": "About me",
+  "AboutMe.Paragraphs": [
+      "In my <span class='underline'>5 years as a developer</span>, I seek to train every day. As a software engineer, now I focus on <span class='underline'>backend development</span>, <span class='underline'>performing continuous integration</span>, and covering mobile developer roles with <span class='underline'>android kotlin</span>.",
+      "I thrive in collaborative environments where diverse perspectives converge to create something truly exceptional.",
+      "Some of the technologies that I have trained and worked on include (but are not limited to):"
+  ],
+
+
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [{
+          "Tab": "Mitra Bhakti Informasi",
+          "Title": "Backend Developer",
+          "Date": "Mar 2023 - Present",
+          "Description": [
+            "Design and develop a dynamic scheduler service, and SFTP services for sending and reading SFTP files with algorithms to read columns dynamically according to payload configuration.",
+            "Lead sprint for develop Campaign Broadcast system, design the schema, and design the API specification and payload for message brokers for integration between service.",
+            "Develop and enhancement existing data migration script to load from file to db by using file cache mechanism to reduce db read executing time.",
+            "Reduce data  migration script load executing time from 4 hour to 20 minutes.",
+            "Maintaining scheduler and sftp service."
+          ]
+      },
+      {
+          "Tab": "Global Investa Capital",
+          "Title": "Backend Developer",
+          "Date": "Nov 2021 - Feb 2023",
+          "Description": [
+            "Design and build GICVerse service, using Golang micro service with shared database for NFT market place api product for blockchain NFT and integration with MD Blockchain GIC Team, implement design pattern, and adjusting auth with monolith app.",
+            "Query optimization for summaries viewer that previously used UNION on 3 tables to use CASE and JOIN with specific condition.",
+            "Create app event tracker, 3rd party Digital Marketing integration, cronjob database backup, and fixing bugs.",
+            "Develop API for mobile and web client GIC App, with implement repository and service pattern for great maintenance.",
+            "Create CI/CD pipeline for develop several features using Bitbucket pipeline and implementation daily backups.",
+            "Managing task for backend team, create task documentation, and evaluating/review pull request of task and merge.",
+            "Design database for feature GIC Reward.",
+            "Develop feature for GIC backoffice internal app."
+          ]
+      },
+      {
+          "Tab": "Disdukcapil Medan",
+          "Title": "Android Developer",
+          "Date": "Oct 2021 - Dec 2021",
+          "Description": [
+            "Design and build an android mobile application based on the existing SIBISA web application for public online service for civil documents like KTP, KK, etc.",
+            "Design and build an android mobile application called E-Lampid to make it easier for village officials to report born, death, and relocation.",
+            "Deploy SIBISA and E-Lampid apps to playstore."
+          ]
+      },
+      {
+          "Tab": "Sultan Abadi Sejahtera",
+          "Title": "Fullstack Developer",
+          "Date": "Jul 2020 - Sep 2021",
+          "Description": [
+            "Design and build android apps called QCApps for PT. Socfin Indonesia for reduce paper usage and build REST API for QCApps.",
+            "Optimize data integration with a large number of rows between the QCApps android application and Integrated Lab System for PT. Socfin Indonesia.",
+            "Revamp Lab Integrated System for PT. Socfin Indonesia and add enhancement feature. Merging 2 portal apps to be 1 portal.",
+            "Build Hospital Information and Management System for RSUD Petala Bumi Pekanbaru."
+          ]
+      },
+      {
+          "Tab": "RSUD Bintan",
+          "Title": "Fullstack Developer",
+          "Date": "Jan 2020 - Mar 2020",
+          "Description": [
+            "Create web application called Aplikasi Sehat for online reserve and integrated with offline RSUD Bintan Hospital Information and Management System.",
+            "Collecting requirement for enhancement of Hospital Information and Management System."
+          ]
+      }
+  ],
+
+  "FeatureProjects.Title": "My projects",
+  "FeatureProjects.Label": "Featured Project",
+  "FeatureProjects.Projects": [{
+          "Title": "Agrourbana",
+          "Description": "Monitoring application made from scratch with auth module, <span class='underline'>configurable graphics</span>, <span class='underline'>configurable alarms</span>, and <span class='underline'>user management</span>. It also has feedback form logic for parameter configuration.",
+          "imgs": [
+              "assets/images/agrourbana/agrourbana1.png",
+              "assets/images/agrourbana/agrourbana2.png",
+              "assets/images/agrourbana/agrourbana3.png",
+              "assets/images/agrourbana/agrourbana4.png",
+              "assets/images/agrourbana/agrourbana5.png"
+          ],
+          "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+      },
+      {
+          "Title": "Tu super plan",
+          "Description": "Health plan quote that has a search engine with which advanced queries are made. Plans are displayed based on the user's age, monthly income, and location. It has <span class='underline'>online chat</span, <span class='underline'>contact form</span>, <span class='underline'>notification system by whatsapp and mail</span>, <span class='underline'>auth</span>, and <span class='underline'>internet information management through the role of administrator.</span>",
+          "imgs": [
+              "assets/images/tusuperplan/tusuperplan1.png",
+              "assets/images/tusuperplan/tusuperplan2.png",
+              "assets/images/tusuperplan/tusuperplan3.png",
+              "assets/images/tusuperplan/tusuperplan4.png",
+              "assets/images/tusuperplan/tusuperplan5.png"
+          ],
+          "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+      },
+      {
+          "Title": "Proyexiot",
+          "Description": "Data monitoring platform belonging to water wells, tugboats, and various installations made from scratch with auth module, <span class='underline'>configurable graphics</span>, <span class='underline'>configurable alarms</span>, <span class='underline'>user management</span>, and <span class='underline'>geolocation with openlayers.</span>",
+          "imgs": [
+              "assets/images/proyex/proyex1.png",
+              "assets/images/proyex/proyex2.png",
+              "assets/images/proyex/proyex3.png",
+              "assets/images/proyex/proyex4.png",
+              "assets/images/proyex/proyex5.png",
+              "assets/images/proyex/proyex6.png",
+              "assets/images/proyex/proyex7.png",
+              "assets/images/proyex/proyex8.png",
+              "assets/images/proyex/proyex9.png",
+              "assets/images/proyex/proyex10.png",
+              "assets/images/proyex/proyex11.png",
+              "assets/images/proyex/proyex12.png"
+          ],
+          "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+      },
+      {
+          "Title": "Hands game",
+          "Description": "The rock-paper-scissors game extended. A personal project developed in angular in which you play randomly against the machine. It has the use of services, interfaces, and components.",
+          "imgs": ["assets/images/hands-game.png"],
+          "ghLink": "https://github.com/andresjosehr/hands-game",
+          "demoLink": "https://projects.andresjosehr.com/hands-game",
+          "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
+      },
+      {
+          "Title": "Countries viewer",
+          "Description": "An interface that consumes an API of countries with which you can view a list of countries, see details of each country, filter by name and region. It also has a dark mode to switch between dark and light themes.",
+          "imgs": ["assets/images/countries-viewer.png"],
+          "ghLink": "https://github.com/andresjosehr/countries-viewer",
+          "demoLink": "https://projects.andresjosehr.com/countries-viewer",
+          "Technologies": ["Angular", "RxJS", "SASS", "API"]
+      }
+  ],
+
+
+
+  "OtherProjects.Title": "More projects",
+  "OtherProjects.Projects": [{
+          "Title": "Pokemon",
+          "Description": "Pokemon search engine that uses the pokeapi. Object-oriented programming was used to organize the information of the pokemons along with their respective image.",
+          "ghLink": "https://github.com/andresjosehr/pokemon-angular",
+          "demoLink": "https://projects.andresjosehr.com/pokemon-list",
+          "Technologies": ["Angular", "RxJs", "API", "Bootstrap"]
+      },
+      {
+          "Title": "Coming soon page",
+          "Description": "Personal project of a two-column split page to be used as a 'Coming soon page'. Scheduled to be a fully responsive design. It has a form field to subscribe by email.",
+          "ghLink": "https://github.com/andresjosehr/coming-soon-page",
+          "demoLink": "https://projects.andresjosehr.com/coming-soon-page",
+          "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
+      },
+      {
+          "Title": "Four card feature section",
+          "Description": "A single page that has a minimal design, listing four features on four cards. Input animations are done with angular animations.",
+          "ghLink": "https://github.com/andresjosehr/fourd-card-feature-section",
+          "demoLink": "https://projects.andresjosehr.com/four-card-feature-section",
+          "Technologies": ["Angular", "SASS", "CSS GRID"]
+      },
+      {
+          "Title": "Social proof section",
+          "Description": "Personal project of a page designed from a Figma layout. Angular was used for development together with SASS and CSS GRID.",
+          "ghLink": "https://github.com/andresjosehr/social-proof-section",
+          "demoLink": "https://projects.andresjosehr.com/social-proof-section",
+          "Technologies": ["Angular", "CSS GRID", "GIT"]
+      },
+      {
+          "Title": "FAQ accordion card",
+          "Description": "FAQ accordion with logic and animations made in Angular.",
+          "ghLink": "https://github.com/andresjosehr/faq-accordion",
+          "demoLink": "https://proyectos.andresjosehr.com/faq-accordion",
+          "Technologies": ["Angular", "CSS GRID", "Angular animations"]
+      },
+      {
+          "Title": "Population Data Center",
+          "Description": "Simple one-page design that features a profile letter with basic information about a person.",
+          "ghLink": "https://github.com/tukangk3tik/population-data-center",
+          "demoLink": "https://github.com/tukangk3tik/population-data-center",
+          "Technologies": ["Spring Boot", "Kotlin", "JWT", "Flyway"]
+      }
+  ],
+  "Contact.Pretitle": "What’s Next",
+  "Contact.Title": "Get in touch!",
+  "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+  "Contact.Btn": "Say Hello"
+
+
+}
