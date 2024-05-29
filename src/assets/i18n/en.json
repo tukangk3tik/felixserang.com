@@ -133,24 +133,28 @@
             "Title": "Kickstarter Blockchain App",
             "Description": "Personal project of implementation kickstarter.com business model to blockchain ecosystem and deploy to Sepolia Testnet Network",
             "ghLink": "https://github.com/tukangk3tik/kickstarter-blockchain-app",
+            "demoLink": "https://github.com/tukangk3tik/kickstarter-blockchain-app",
             "Technologies": ["Blockchain", "Ethereum", "Solidity", "React", "NextJs", "NodeJs"]
         },
         {
             "Title": "Discussion Forum API",
             "Description": "A simple discussion API backend. User can login, create threads, leave a comment, and reply the comment",
             "ghLink": "https://github.com/tukangk3tik/discussion-forum-api/tree/main",
+            "demoLink": "https://github.com/tukangk3tik/discussion-forum-api/tree/main",
             "Technologies": ["NodeJs", "hapiJs", "Clean architecture", "Automate testing", "CI/CD", "Github action"]
         },
         {
             "Title": "Simple Wallet App",
             "Description": "Backend service for Simple Wallet App. Simple app for PrivyID Backend Test submission.",
             "ghLink": "https://github.com/tukangk3tik/privyid-backend-test",
+            "demoLink": "https://github.com/tukangk3tik/privyid-backend-test",
             "Technologies": ["Golang", "Gin", "Gorm", "JWT"]
         },
         {
           "Title": "Population Data Center",
           "Description": "Personal Project of Population Data Center using Minimal Spring Boot sample app.",
           "ghLink": "https://github.com/tukangk3tik/population-data-center",
+          "demoLink": "https://github.com/tukangk3tik/population-data-center",
           "Technologies": ["Spring Boot", "Kotlin", "JWT", "Flyway"]
         },
         {
